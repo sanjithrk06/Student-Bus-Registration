@@ -3,7 +3,7 @@
 @section('content')
 <div class="page-header">
     <div class="page-title">
-        <h4>Edit Student</h4>
+        <h4>Add Student</h4>
         <h6>Students</h6>
     </div>
 </div>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="col-lg-12">
-                <a href="javascript:void(0);" class="btn btn-submit me-2">Submit</a>
+                <a href="javascript:void(0);" class="btn btn-submit me-2">Add</a>
                 <a href="{{ route('students') }}" class="btn btn-cancel">Cancel</a>
             </div>
         </div>

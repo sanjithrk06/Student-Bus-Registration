@@ -7,29 +7,29 @@
                         <a href="{{ route('dashboard') }}"><img src="{{ asset('assets/img/icons/dashboard.svg') }}" alt="img"><span> Dashboard</span> </a>
                     </li>
                     <li class="submenu">
-                        <a href="javascript:void(0);"><img src="{{ asset('assets/img/icons/sales1.svg') }}" alt="img"><span> Buses</span> <span class="menu-arrow"></span></a>
+                        <a href="javascript:void(0);"><img src="{{ asset('assets/img/icons/bus.png') }}" alt="img"><span> Buses</span> <span class="menu-arrow"></span></a>
                         <ul>
                             <li><a href="{{ route('buses') }}">Bus Details</a></li>
-                            <li><a href="#">Combine Bus</a></li>
+                            <li><a href="{{ route('combineBus') }}">Combine Bus</a></li>
                             <li><a href="{{ route('drivers') }}">Driver Details</a></li>
+                            <li><a href="{{ route('busRegistration') }}">Bus Registration</a></li>
                         </ul>
                     </li>
                     <li class="submenu">
-                        <a href="javascript:void(0);"><img src="{{ asset('assets/img/icons/product.svg') }}" alt="img"><span> Students</span> <span class="menu-arrow"></span></a>
+                        <a href="javascript:void(0);"><img src="{{ asset('assets/img/icons/student.png') }}" alt="img"><span> Students</span> <span class="menu-arrow"></span></a>
                         <ul>
                             <li><a href="{{ route('students') }}">Students Details</a></li>
-                            <li><a href="#">Attendance</a></li>
-                            <!-- <li><a href="#">Import Students</a></li> -->
+                            <li><a href="{{ route('studentsAttendance') }}">Attendance</a></li>
                         </ul>
                     </li>
-                    <li class="submenu">
-                        <a href="javascript:void(0);"><img src="{{ asset('assets/img/icons/product.svg') }}" alt="img"><span> Faculty</span> <span class="menu-arrow"></span></a>
+                    {{-- <li class="submenu">
+                        <a href="javascript:void(0);"><img src="{{ asset('assets/img/icons/staff.png') }}" alt="img"><span> Faculty</span> <span class="menu-arrow"></span></a>
                         <ul>
                             <li><a href="{{ route('faculties') }}">Faculty Details</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                     <li class="submenu">
-                        <a href="javascript:void(0);"><img src="{{ asset('assets/img/icons/sales1.svg') }}" alt="img"><span> Mails</span> <span class="menu-arrow"></span></a>
+                        <a href="javascript:void(0);"><img src="{{ asset('assets/img/icons/mail.png') }}" alt="img"><span> Mails</span> <span class="menu-arrow"></span></a>
                         <ul>
                             <li><a href="{{ route('mail') }}">Send Mail</a></li>
                         </ul>

@@ -102,8 +102,8 @@
             <table class="table  datanew">
                 <thead>
                     <tr>
-                        <th>Student ID</th>
-                        <th>Year</th>
+                        <th>Faculty ID</th>
+                        <th>Name</th>
                         <th>Roll No.</th>
                         <th>Student Name</th>
                         <th>Bus No.</th>

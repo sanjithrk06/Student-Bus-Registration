@@ -3,12 +3,11 @@
 @section('content')
 <div class="page-header">
     <div class="page-title">
-        <h4>Students</h4>
-        <h6>Manage Students List</h6>
+        <h4>Update Attendance</h4>
+        <h6>Manage Students Attendance</h6>
     </div>
     <div class="page-btn">
-        <a href="{{ route('addStudent') }}" class="btn btn-added"><img src="assets/img/icons/plus.svg" alt="img"
-                class="me-1">Add New Student</a>
+        <a href="{{ route('studentsAttendance') }}" class="btn btn-added">Submit</a>
     </div>
 </div>
 
@@ -103,156 +102,155 @@
                 <thead>
                     <tr>
                         <th>Student ID</th>
-                        <th>Year</th>
                         <th>Student Name</th>
                         <th>Roll No.</th>
                         <th>Bus No.</th>
                         <th>Bus Stop</th>
-                        <th>Action</th>
+                        <th>27.08.2024</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>SID001</td>
-                        <td>2</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>11</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  checked type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID002</td>
-                        <td>3</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID003</td>
-                        <td>4</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID004</td>
-                        <td>2</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID005</td>
-                        <td>1</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Erode</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID006</td>
-                        <td>3</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input checked disabled type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID007</td>
-                        <td>3</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID008</td>
-                        <td>4</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  checked type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID009</td>
-                        <td>2</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID0010</td>
-                        <td>1</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  checked type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                     <tr>
                         <td>SID0011</td>
-                        <td>2</td>
                         <td>Kumar</td>
                         <td>7376221AB111</td>
                         <td>12</td>
                         <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="{{ route('editStudent') }}">
-                                <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
+                            <label class="checkboxs">
+                                <input  type="checkbox">
+                                <span class="checkmarks"></span>
+                            </label>
                         </td>
                     </tr>
                 </tbody>
