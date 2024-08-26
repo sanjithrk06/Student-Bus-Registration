@@ -3,8 +3,8 @@
 @section('content')
 <div class="page-header">
     <div class="page-title">
-        <h4>Edit Student</h4>
-        <h6>Students</h6>
+        <h4>Edit Driver</h4>
+        <h6>Drivers</h6>
     </div>
 </div>
 
@@ -13,26 +13,20 @@
         <div class="row">
             <div class="col-lg-4 col-sm-6 col-12">
                 <div class="form-group">
-                    <label>Student ID</label>
-                    <input type="text" placeholder="Enter Student ID">
+                    <label>Driver ID</label>
+                    <input type="text" placeholder="Enter Driver ID">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
                 <div class="form-group">
-                    <label>Year</label>
-                    <input type="text" placeholder="Enter Year">
+                    <label>Driver Name</label>
+                    <input type="text" placeholder="Enter Driver Name">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
                 <div class="form-group">
-                    <label>Student Name</label>
-                    <input type="text" placeholder="Enter Student Name">
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-12">
-                <div class="form-group">
-                    <label>Roll No.</label>
-                    <input type="text" placeholder="Enter Roll No.">
+                    <label>Contact Number</label>
+                    <input type="text" placeholder="Enter Contact Number">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
@@ -43,13 +37,13 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
                 <div class="form-group">
-                    <label>Bus Stop</label>
-                    <input type="text" placeholder="Enter Bus Stop">
+                    <label>Bus Route</label>
+                    <input type="text" placeholder="Enter Bus Route">
                 </div>
             </div>
             <div class="col-lg-12">
-                <a href="javascript:void(0);" class="btn btn-submit me-2">Submit</a>
-                <a href="{{ route('students') }}" class="btn btn-cancel">Cancel</a>
+                <a href="javascript:void(0);" class="btn btn-submit me-2">Edit</a>
+                <a href="{{ route('drivers') }}" class="btn btn-cancel">Cancel</a>
             </div>
         </div>
     </div>

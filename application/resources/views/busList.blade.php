@@ -7,7 +7,7 @@
         <h6>Manage Bus List</h6>
     </div>
     <div class="page-btn">
-        <a href="addproduct.html" class="btn btn-added"><img src="assets/img/icons/plus.svg" alt="img"
+        <a href="{{ route('addBus') }}" class="btn btn-added"><img src="assets/img/icons/plus.svg" alt="img"
                 class="me-1">Add New Bus</a>
     </div>
 </div>
@@ -102,244 +102,156 @@
             <table class="table  datanew">
                 <thead>
                     <tr>
-                        <th>Student ID</th>
-                        <th>Year</th>
-                        <th>Roll No.</th>
-                        <th>Student Name</th>
+                        <th>Bus ID</th>
                         <th>Bus No.</th>
-                        <th>Bus Stop</th>
+                        <th>Driver Name</th>
+                        <th>Contact Number</th>
+                        <th>Stops Count</th>
+                        <th>Bus Route</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>PT001</td>
-                        <td>Computers</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Macbook pro</a>
-                        </td>
-                        <td>1500.00</td>
-                        <td>100.00</td>
+                        <td>BID001</td>
+                        <td>6</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>11</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT002</td>
-                        <td>Fruits</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Orange</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>BID002</td>
+                        <td>3</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT003</td>
-                        <td>Fruits</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Pineapple</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>BID003</td>
+                        <td>2</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT004</td>
-                        <td>Fruits</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Strawberry</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>BID004</td>
+                        <td>7</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT005</td>
-                        <td>Accessories</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Avocat</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>150.00</td>
+                        <td>BID005</td>
+                        <td>10</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Erode</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT006</td>
-                        <td>Shoes</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Macbook Pro</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>BID006</td>
+                        <td>8</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT007</td>
-                        <td>Shoes</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Apple Earpods</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>BID007</td>
+                        <td>9</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT008</td>
-                        <td>Fruits</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">iPhone 11 </a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>BID008</td>
+                        <td>12</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT009</td>
-                        <td>Earphones</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">samsung </a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>BID009</td>
+                        <td>11</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT0010</td>
-                        <td>Health Care </td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Banana</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>BID0010</td>
+                        <td>1</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT0011</td>
-                        <td>Health Care </td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Limon</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>BID0011</td>
+                        <td>2</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editBus') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>

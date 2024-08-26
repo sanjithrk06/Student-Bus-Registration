@@ -7,7 +7,7 @@
         <h6>Manage Drivers List</h6>
     </div>
     <div class="page-btn">
-        <a href="addproduct.html" class="btn btn-added"><img src="assets/img/icons/plus.svg" alt="img"
+        <a href="{{ route('addDriver') }}" class="btn btn-added"><img src="assets/img/icons/plus.svg" alt="img"
                 class="me-1">Add New Driver</a>
     </div>
 </div>
@@ -102,244 +102,144 @@
             <table class="table  datanew">
                 <thead>
                     <tr>
-                        <th>Student ID</th>
-                        <th>Year</th>
-                        <th>Roll No.</th>
-                        <th>Student Name</th>
+                        <th>Driver ID</th>
+                        <th>Name</th>
+                        <th>Contact Number</th>
                         <th>Bus No.</th>
-                        <th>Bus Stop</th>
+                        <th>Bus Route</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>PT001</td>
-                        <td>Computers</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Macbook pro</a>
-                        </td>
-                        <td>1500.00</td>
-                        <td>100.00</td>
+                        <td>DID001</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>11</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT002</td>
-                        <td>Fruits</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Orange</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>DID002</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT003</td>
-                        <td>Fruits</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Pineapple</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>DID003</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT004</td>
-                        <td>Fruits</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Strawberry</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>DID004</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT005</td>
-                        <td>Accessories</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Avocat</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>150.00</td>
+                        <td>DID005</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Erode</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT006</td>
-                        <td>Shoes</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Macbook Pro</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>DID006</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT007</td>
-                        <td>Shoes</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Apple Earpods</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>DID007</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT008</td>
-                        <td>Fruits</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">iPhone 11 </a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>DID008</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT009</td>
-                        <td>Earphones</td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">samsung </a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>DID009</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT0010</td>
-                        <td>Health Care </td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Banana</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>DID0010</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td>PT0011</td>
-                        <td>Health Care </td>
-                        <td>N/D</td>
-                        <td class="productimgname">
-                            <a href="javascript:void(0);">Limon</a>
-                        </td>
-                        <td>10.00</td>
-                        <td>100.00</td>
+                        <td>DID0011</td>
+                        <td>Kumar</td>
+                        <td>9876543210</td>
+                        <td>12</td>
+                        <td>Bhavani</td>
                         <td>
-                            <a class="me-3" href="product-details.html">
-                                <img src="assets/img/icons/eye.svg" alt="img">
-                            </a>
-                            <a class="me-3" href="{{ route('editStudent') }}">
+                            <a class="me-3" href="{{ route('editDriver') }}">
                                 <img src="assets/img/icons/edit.svg" alt="img">
-                            </a>
-                            <a class="confirm-text" href="javascript:void(0);">
-                                <img src="assets/img/icons/delete.svg" alt="img">
                             </a>
                         </td>
                     </tr>
