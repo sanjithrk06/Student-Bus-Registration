@@ -49,7 +49,7 @@
             </div>
             <div class="col-lg-12">
                 <a href="javascript:void(0);" class="btn btn-submit me-2">Send</a>
-                <a href="productlist.html" class="btn btn-cancel">Reset</a>
+                <a href="javascript:void(0);" class="btn btn-cancel">Reset</a>
             </div>
         </div>
     </div>

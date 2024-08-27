@@ -15,8 +15,8 @@
                 <div class="form-group">
                     <label>Route</label>
                     <select class="select">
-                        <option>Select Email</option>
-                        <option>Email</option>
+                        <option>Select Route</option>
+                        <option>Route</option>
                     </select>
                 </div>
             </div>
@@ -24,8 +24,8 @@
                 <div class="form-group">
                     <label>Bus Stop</label>
                     <select class="select">
-                        <option>Select Email</option>
-                        <option>Email</option>
+                        <option>Select Stop</option>
+                        <option>Stop</option>
                     </select>
                 </div>
             </div>
