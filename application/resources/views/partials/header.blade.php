@@ -1,9 +1,9 @@
 <div class="header">
     <div class="header-left active">
-        <a href="index.html" class="logo text-center w-100">
+        <a href="{{ route('dashboard')}}" class="logo text-center w-100">
             <h3 class="text-center fw-bold "  style="color: darkblue; padding-top:5px;" >Bus Portal</h3>
         </a>
-        <a href="index.html" class="logo-small text-center m-auto">
+        <a href="{{ route('dashboard')}}" class="logo-small text-center m-auto">
             <h3 class="text-center"  style="color: darkblue;" >Bus Portal</h3>
         </a>
     </div>
@@ -12,7 +12,7 @@
         <span class="bar-icon">
             <span></span>
             <span></span>
-            <span></span>
+            <span></span>   
         </span>
     </a>
 
